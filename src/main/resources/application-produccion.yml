@@ -1,0 +1,10 @@
+spring:
+    config:
+        activate:
+            on-profile: produccion
+
+url:
+  manuales: ""
+
+resttemplate:
+    timeout: 10000

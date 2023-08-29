@@ -1,0 +1,10 @@
+spring:
+    config:
+        activate:
+            on-profile: democlientes
+            
+url:
+  manuales: ""
+  
+resttemplate:
+    timeout: 10000

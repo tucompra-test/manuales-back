@@ -1,0 +1,12 @@
+spring:
+    config:
+        activate:
+            on-profile: local
+
+url:
+  manuales: "https://ws.tucompra.net/"
+
+resttemplate:
+    timeout: 10000
+
+    

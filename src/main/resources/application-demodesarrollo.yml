@@ -1,0 +1,10 @@
+spring:
+    config:
+        activate:
+            on-profile: demodesarrollo
+
+url:
+  manuales: ""
+  
+resttemplate:
+    timeout: 10000

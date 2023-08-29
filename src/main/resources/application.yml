@@ -1,0 +1,13 @@
+server:
+  port: 9098
+  servlet:
+    contextPath: "/tcWSDRest/*"
+
+spring:
+    profiles:
+        active: @activatedProperties@
+
+corsfilter:
+  origins: "*"
+  headers: Authorization,Content-Type
+  methods: POST,GET,OPTIONS
